@@ -4,7 +4,7 @@
 	border: 1px solid black; /* Temporary */
 }
 
-html, body {
+html, body, a, form {
 	border: none; /* Temporary */
 }
 
@@ -32,12 +32,43 @@ html, body {
 }
 
 .nav-top {
-	width: 100%;
-	height: 62px; /* Add 2px when removing borders */
+	height: 55px; /* Add 2px when removing borders */
+	padding: 7px 7px 0 7px;
+}
+
+.nav-top img {
+	width: 120px;
+	height: 44px;
+	padding: 5px 10px 0 5px;
+}
+
+.form-container {
+	width: 637px;
+	position: absolute;
+	display: inline-block;
+}
+
+.form-container form {
+	display: inline;
+}
+
+.form-container input {
+	height: 44px;
+	width: 585px;
+}
+
+.form-container button {
+	height: 46px;
+	width: 50px;
+	float: right;
+}
+
+.form-container svg {
+	width: 24px;
+	vertical-align: middle;
 }
 
 .nav-bot {
-	width: 100%;
 	height: 56px; /* Add 2px when removing borders */
 }
 

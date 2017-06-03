@@ -4,3 +4,7 @@ This project is from [The Odin Project](https://www.theodinproject.com) (Web Dev
 
 - [x] Easy Version: Build the Google.com homepage  
 - [ ] Difficult Version (optional): Build the Google.com search results page
+
+## Thoughts
+
+* Struggling to utilise CSS classes efficiently

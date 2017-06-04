@@ -8,3 +8,4 @@ This project is from [The Odin Project](https://www.theodinproject.com) (Web Dev
 ## Thoughts
 
 * Struggling to utilise CSS classes efficiently
+* Being too pedantic for this beginner project

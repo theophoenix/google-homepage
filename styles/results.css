@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 0;
 	font: 13px Arial, sans-serif;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
-html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-right, .nav-bot, .nav-bot-container {
+/* html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-right, .nav-bot, .nav-bot-container, .footer-top, .footer-bot, span {
 	border: none;
-}
+} */
 
 
 
@@ -127,12 +127,12 @@ html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-righ
 	padding: 30px 16px 8px 16px;
 }
 
-.nav-bot-container a, .footer-top a {
+.nav-bot-container a, .footer-top a, .footer-bot a {
 	color: #777;
 	text-decoration: none;
 }
 
-.nav-bot-container a:hover, .footer-top a:hover {
+.nav-bot-container a:hover, .footer-top a:hover, .footer-bot a:hover {
 	color: #222;
 }
 
@@ -154,8 +154,8 @@ html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-righ
 	width: 100%;
 	height: auto;
 	position: absolute;
-	top: 122px; /* .header height */
-	bottom: 83px; /* .footer height */
+	top: 122px; /* .header height + border-bottom */
+	bottom: 84px; /* .footer height + border-top */
 }
 
 
@@ -164,7 +164,7 @@ html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-righ
 
 .footer {
 	width: 100%;
-	height: 81px; /* Add 2px when removing borders */
+	height: 83px;
 	position: absolute;
 	bottom: 0;
 	background-color: #f2f2f2;
@@ -173,7 +173,7 @@ html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-righ
 
 .footer-top {
 	height: auto;
-	padding: 14px 0 0 166px;
+	padding: 15px 0 0 166px;
 	color: #aaa;
 }
 
@@ -188,5 +188,10 @@ html, body, a, form, .form-container, .nav-top, .nav-top img, svg, .nav-top-righ
 }
 
 .footer-bot {
-	height: 38px; /* Add 2px when removing borders */
+	height: auto;
+	padding: 14px 0 14px 166px;
+}
+
+.footer-bot a {
+	padding-right: 27px;
 }
